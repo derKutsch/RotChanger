@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+    <Operation Class="PatchOperationSequence">
+        <operations>
+        <!-- Plants -->
+            <li Class="PatchOperationReplace">
+                <xpath>
+                    /Defs/ThingDef [defName="RawPotatoes"]/comps/li[@Class="CompProperties_Rottable"]/daysToRotStart            
+                </xpath>
+                <value>
+                    <daysToRotStart>90</daysToRotStart>
+                </value> 
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>
+                    /Defs/ThingDef [defName="RawFungus"]/comps/li[@Class="CompProperties_Rottable"]/daysToRotStart
+                </xpath>
+                <value>
+                    <daysToRotStart>90</daysToRotStart>
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>
+                    /Defs/ThingDef [defName="RawRice"]/comps/li[@Class="CompProperties_Rottable"]/daysToRotStart
+                </xpath>
+                <value>
+                    <daysToRotStart>120</daysToRotStart>
+                </value>
+            </li>
+             <li Class="PatchOperationReplace">
+                <xpath>
+                    /Defs/ThingDef [defName="RawAgave"]/comps/li[@Class="CompProperties_Rottable"]/daysToRotStart
+                </xpath>
+                <value>
+                    <daysToRotStart>75</daysToRotStart>
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>
+                    /Defs/ThingDef [defName="RawCorn"]/comps/li[@Class="CompProperties_Rottable"]/daysToRotStart
+                </xpath>
+                <value>
+                    <daysToRotStart>180</daysToRotStart>
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>
+                    /Defs/ThingDef [defName="RawBerries"]/comps/li[@Class="CompProperties_Rottable"]/daysToRotStart
+                </xpath>
+                <value>
+                    <daysToRotStart>42</daysToRotStart>
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>
+                    /Defs/ThingDef [defName="RawHops"]/comps/li[@Class="CompProperties_Rottable"]/daysToRotStart
+                </xpath>
+                <value>
+                    <daysToRotStart>90</daysToRotStart>
+                </value>
+            </li>
+        <!-- Animal Products -->
+            <li Class="PatchOperationReplace">
+                <xpath>
+                    /Defs/ThingDef [defName="Milk"]/comps/li[@Class="CompProperties_Rottable"]/daysToRotStart
+                </xpath>
+                <value>
+                    <daysToRotStart>42</daysToRotStart>
+                </value>
+            </li>
+        </operations>
+    </Operation>
+</Patch>
+
