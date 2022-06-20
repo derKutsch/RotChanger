@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+  <name>Rotting duration Changer</name>                          
+  <author>derKutsch</author>
+  <url>www.github.com/derKutsch/RotChanger</url>            
+  <packageId>at.derkutsch.rotchanger</packageId>     
+  <supportedVersions>                       
+    <li>1.3</li>
+  </supportedVersions>
+  <description>This Mod changes the rotting durations of (almost all) raw (plant) resources.</description>   
+</ModMetaData>
